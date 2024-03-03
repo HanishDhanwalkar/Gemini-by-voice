@@ -1,6 +1,11 @@
 import google.generativeai as genai
+import os
+from dotenv import load_dotenv
 
-genai.configure(api_key="AIzaSyAl7QVc_jq3T8XynriXUYRE1aXVeSfOoo4")
+load_dotenv()  # Load environment variables from the `.env` file
+
+api_key = os.getenv("API_KEY") # replace with your API_KEY
+genai.configure(api_key= api_key)
 
 # Set up the model
 generation_config = {
