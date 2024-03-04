@@ -6,4 +6,4 @@ Furthermore, I am continuously learning and expanding my knowledge base. I stay 
 Whether you need assistance with a specific coding project, debugging, or optimizing your code, I am here to help. My goal is to empower you with the knowledge and tools you need to succeed in your coding endeavors.<br>
 
 
-written by - Daisy (a bot) :)
+written by - (a bot) :)

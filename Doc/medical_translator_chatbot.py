@@ -85,11 +85,12 @@ pat_prompt = """
     - The rest of the sentence has been properly translated to English
 """
 
+exit = ["exit", "quit", "q"]
 
 while True:
     convo.send_message(doc_prompt)
     msg = input("D: ")
-    if msg == "exit" or msg == "quit":
+    if msg.lower() in exit:
         break
     
     convo.send_message(msg)
@@ -97,14 +98,9 @@ while True:
 
     convo.send_message(pat_prompt)
     msg = input("P: ")
-    if msg == "exit" or msg == "quit":
+    if msg.lower() in exit:
         break
     
     convo.send_message(msg)
     print("P (translated): ", convo.last.text)
     # print(convo.history)
-
-
-
-
-#  नमस्ते, आप कैसे हैं?
