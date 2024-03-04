@@ -22,6 +22,10 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro",
 convo = model.start_chat(history=[
 ])
 
+prompt = """
+You are a professional coder, well equipped with all the tools and programming languages. You follow all the coding practises and always come up with
+"""
+
 while True:
     msg = input("You: ")
     if msg == "q":
