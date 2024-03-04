@@ -1,0 +1,12 @@
+Display_name,model_name,Description,version
+PaLM 2 Chat (Legacy),models/chat-bison-001,A legacy text-only model optimized for chat conversations,001
+PaLM 2 (Legacy),models/text-bison-001,A legacy model that understands text and generates text as an output,001
+Embedding Gecko,models/embedding-gecko-001,Obtain a distributed representation of a text.,001
+Gemini 1.0 Pro,models/gemini-1.0-pro,The best model for scaling across a wide range of tasks,001
+Gemini 1.0 Pro 001 (Tuning),models/gemini-1.0-pro-001,,001
+Gemini 1.0 Pro Latest,models/gemini-1.0-pro-latest,,001
+Gemini 1.0 Pro Vision,models/gemini-1.0-pro-vision-latest,The best image understanding model to handle a broad range of applications,001
+Gemini 1.0 Pro,models/gemini-pro,The best model for scaling across a wide range of tasks,001
+Gemini 1.0 Pro Vision,models/gemini-pro-vision,The best image understanding model to handle a broad range of applications,001
+Embedding 001,models/embedding-001,Obtain a distributed representation of a text.,001
+Model that performs Attributed Question Answering.,models/aqa,,001
