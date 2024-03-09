@@ -16,4 +16,4 @@ pipe = StableDiffusionXLPipeline.from_pretrained(base, unet=unet, torch_dtype=to
 pipe.scheduler = EulerDiscreteScheduler.from_config(pipe.scheduler.config, timestep_spacing="trailing")
 
 # Ensure using the same inference steps as the loaded model and CFG set to 0.
-pipe("A girl smiling", num_inference_steps=2, guidance_scale=0).images[0].save("output.png")
+pipe("A girl smiling", num_inference_steps=2, guidance_scale=0).images[0].save("ImageGenrator\output\output.png")

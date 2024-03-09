@@ -15,8 +15,8 @@ generation_config = {
   "max_output_tokens": 2048,
 }
 
-model = genai.GenerativeModel(model_name="gemini-1.0-pro",
-                              generation_config=generation_config,)
+model = genai.GenerativeModel(model_name="gemini-1.0-pro",)
+                              # generation_config=generation_config,)
                               # safety_settings=safety_settings)
 
 convo = model.start_chat(history=[
